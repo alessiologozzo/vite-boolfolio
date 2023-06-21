@@ -3,7 +3,28 @@
 @import "bootstrap/dist/css/bootstrap.css";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+//Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+//Alkatra
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
 body{
-  background-color: black;
-  color: white;
+  background-color: $main_color;
+  color: $text-color;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Alkatra', cursive;
+}
+
+.al-bg-orange {
+  background-color: #ef8d1d;
+}
+
+.al-bg-violet {
+  background-color: #7952b3;
 }
